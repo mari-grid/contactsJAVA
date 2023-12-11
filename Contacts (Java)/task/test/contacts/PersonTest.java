@@ -17,7 +17,7 @@ public class PersonTest {
         System.setOut(new PrintStream(outputStreamCaptor));
     }
 
-    /*@Test
+    @Test
     public void testGetName_whenDidntSetName() {
         Person person = new Person();
         String expectedResult = "[no data]";
@@ -202,6 +202,6 @@ public class PersonTest {
         String actualResult = person.getInfo();
         String expectedResult = "Maryna Cherk";
         assertEquals(expectedResult, actualResult);
-    }*/
+    }
 
 }
