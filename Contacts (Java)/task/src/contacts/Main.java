@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) throws NumberFormatException {
 
         ContactStore contactStore = new ContactStore();
-        OrganizationFactory orgFact = new OrganizationFactory();
-        PersonFactory persFact = new PersonFactory();
+        /*OrganizationFactory orgFact = new OrganizationFactory();
+        PersonFactory persFact = new PersonFactory();*/
 
         Scanner scan = new Scanner(System.in);
 
