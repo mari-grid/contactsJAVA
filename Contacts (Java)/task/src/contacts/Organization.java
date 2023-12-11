@@ -58,7 +58,7 @@ public class Organization extends Contact{
 
     @Override
     public Boolean isFound(String query) {
-        return super.getName().toLowerCase().contains(query)
+        return super.getName().toLowerCase().contains(query.toLowerCase())
                 || this.getNumber().contains(query);
     }
 
